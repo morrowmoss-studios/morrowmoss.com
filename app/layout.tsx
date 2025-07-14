@@ -6,6 +6,9 @@ import "./globals.css";
 export const metadata = {
     title: "Morrowmoss Studios",
     description: "Handcrafting fae-touched worlds and queer-centered adventures.",
+    icons: {
+        icon: "/favicon.png",
+    },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
