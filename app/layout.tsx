@@ -20,12 +20,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <body className="bg-moss DEFAULT text-moss-light font-sans flex flex-col min-h-screen">
 
         {/* HEADER */}
-        <header className="flex items-center justify-between p-6 border-b border-moss-faint">
+        <header className="flex flex-col sm:flex-row items-center justify-between p-6 space-y-4 sm:space-y-0 border-b border-moss-faint">
             <div className="flex items-center space-x-4">
                 <Image src="/LogoOnly.png" alt="Morrowmoss logo" width={50} height={50} />
                 <span className="text-xl font-bold text-moss-light">Morrowmoss</span>
             </div>
-            <nav className="flex space-x-6 text-moss-light">
+            <nav className="flex flex-wrap justify-center space-x-6 text-moss-light">
                 <Link href="/">Home</Link>
                 <Link href="/creations">Creations</Link>
                 <Link href="/blog">Blog</Link>
