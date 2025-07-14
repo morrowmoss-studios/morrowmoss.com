@@ -1,6 +1,6 @@
 # 🌿 Morrowmoss Studios
 
-**morrowmoss.com** — the digital woodland for Morrowmoss Studios, a queer indie game studio handcrafting fae-touched worlds and queer-centered adventures.
+**morrowmoss.com** — the digital woodland for Morrowmoss Studios, an indie game studio handcrafting fae-touched worlds and queer-centered adventures.
 
 ---
 
@@ -19,7 +19,7 @@ Built with [Next.js](https://nextjs.org/) for speed, flexibility, and future-pro
 
 This website and its content are provided for **entertainment and informational purposes only**.  
 Nothing here constitutes medical, mental health, or professional advice.  
-For more, see our [LICENSE](./LICENSE).
+All rights reserved. Unauthorized duplication will be fed to the moss.
 
 ---
 
