@@ -25,28 +25,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             {/* Light overlay to lift darks */}
             <div className="absolute inset-0 bg-white/15 z-0" />
 
-            {/* LIGHTNING BUGS */}
-            <div className="absolute inset-0 z-10 pointer-events-none">
-                {[...Array(35)].map((_, i) => {
-                    let duration = '4s'; // default
-                    if (i < 12) duration = '2s';
-                    else if (i < 24) duration = '4s';
-                    else duration = '6s';
-                    return (
-                        <div
-                            key={i}
-                            className="absolute w-1 h-1 bg-[#FDE68A] rounded-full"
-                            style={{
-                                top: `${Math.random() * 100}%`,
-                                left: `${Math.random() * 100}%`,
-                                animation: `twinkle ${duration} infinite`,
-                                animationDelay: `${Math.random() * 5}s`,
-                            }}
-                        />
-                    );
-                })}
-            </div>
-
             {/* MAIN CONTENT */}
             <div className="relative z-20 flex flex-col min-h-screen">
                 {/* HEADER */}
@@ -63,6 +41,24 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                         <Link href="/contact" className="hover:text-[#CCDCFD] hover:drop-shadow-[0_0_5px_#CCDCFD] transition duration-300">Contact</Link>
                     </nav>
                 </header>
+
+                {/* LIGHTENING BUGS */}
+                <div className="absolute inset-0 z-[9999] pointer-events-none">
+                    {[...Array(35)].map((_, i) => (
+                        <div
+                            key={i}
+                            className="absolute rounded-full bug"
+                            style={{
+                                top: `${Math.random() * 100}%`,
+                                left: `${Math.random() * 100}%`,
+                                width: `${2 + Math.random() * 2}px`,
+                                height: `${2 + Math.random() * 2}px`,
+                                backgroundColor: '#FDE68A',
+                                animationDelay: `${Math.random() * 5}s`,
+                            }}
+                        />
+                    ))}
+                </div>
 
                 {/* PAGE CONTENT */}
                 <main className="flex-grow container mx-auto px-6 py-12">

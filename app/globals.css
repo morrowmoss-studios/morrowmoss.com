@@ -37,7 +37,14 @@ a {
   50% { opacity: 1; }
 }
 
-.animate-twinkle {
-  animation: twinkle 4s infinite;
+@keyframes drift {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(5px); }
 }
+
+.bug {
+  animation: twinkle 4s infinite, drift 8s ease-in-out infinite alternate;
+}
+
+
 
