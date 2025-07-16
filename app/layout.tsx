@@ -30,11 +30,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 {[...Array(35)].map((_, i) => (
                     <div
                         key={i}
-                        className="absolute w-1 h-1 bg-[#FDE68A] rounded-full animate-twinkle"
+                        className="absolute w-1 h-1 bg-[#FDE68A] rounded-full"
                         style={{
                             top: `${Math.random() * 100}%`,
                             left: `${Math.random() * 100}%`,
-                            animationDelay: `${Math.random() * 1}s`,
+                            animation: `twinkle ${3 + Math.random() * 3}s infinite`,
+                            animationDelay: `${Math.random() * 5}s`,
                         }}
                     />
                 ))}
