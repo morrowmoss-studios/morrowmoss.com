@@ -12,7 +12,7 @@ export default function Home() {
             </section>
 
             {/* IN DEVELOPMENT */}
-            <section className="space-y-4">
+            <section className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20">
                 <h2 className="text-2xl font-bold text-moss-light">Currently Brewing</h2>
                 <p className="text-moss-light/80">
                     Check back soon to see what fresh mossy magic is sprouting. We’re nurturing our next world right now.
@@ -20,7 +20,7 @@ export default function Home() {
             </section>
 
             {/* RECENT BLOG */}
-            <section className="space-y-4">
+            <section className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20">
                 <h2 className="text-2xl font-bold text-moss-light">From the Blog</h2>
                 <p className="text-moss-light/80">
                     Tips, thoughts, and tangled roots of our dev journey — coming soon.

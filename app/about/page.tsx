@@ -1,6 +1,6 @@
 export default function AboutPage() {
     return (
-        <div className="max-w-3xl mx-auto px-6 py-12 text-moss-light">
+        <div className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20">
             <h2 className="text-3xl font-bold mb-6">About MorrowMoss</h2>
             <p className="mb-4">
                 MorrowMoss is more than a name. It’s a feeling a place where time folds into itself,

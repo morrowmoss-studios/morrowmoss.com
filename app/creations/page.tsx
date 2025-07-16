@@ -9,13 +9,13 @@ export default function Creations() {
             </section>
 
             <div className="space-y-8">
-                <div className="border border-moss-faint p-6 rounded hover:bg-moss-faint/10 transition">
-                    <h2 className="text-xl font-semibold text-moss-light">StillSands</h2>
-                    <p className="text-moss-light/80">
-                        A calming 3D zen garden app where you shape flowing sands to unwind your busy mind.
-                    </p>
+                <div className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20">
+                    <h3 className="text-lg font-bold text-moss-light">StillSands</h3>
+                    <p className="text-sm text-moss-faint">A calming 3D zen garden app where you shape flowing sands to unwind your busy mind.</p>
                 </div>
-                <div className="border border-moss-faint p-6 rounded hover:bg-moss-faint/10 transition">
+
+
+                <div className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20">
                     <h2 className="text-xl font-semibold text-moss-light">IdleGrove</h2>
                     <p className="text-moss-light/80">
                         A cozy idle grove that rewards your self-care. Grow lush worlds while nurturing yourself IRL.
