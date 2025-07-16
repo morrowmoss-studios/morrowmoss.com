@@ -18,8 +18,14 @@ a {
 
 /* Twinkle animation (for lightning bugs) */
 @keyframes twinkle {
-  0%, 100% { opacity: 0.2; }
-  50% { opacity: 1; }
+  0%, 100% {
+    opacity: 0;
+    box-shadow: 0 0 0px transparent;
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 6px #fde68a, 0 0 12px #fde68a80;
+  }
 }
 @keyframes drift {
   0% { transform: translateX(0); }

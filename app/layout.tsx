@@ -48,7 +48,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                                 backgroundColor: '#FDE68A',
                                 animation: `twinkle ${duration} infinite, drift ${driftDuration} ease-in-out infinite alternate`,
                                 animationDelay: `${Math.random() * 5}s`,
-                                filter: "blur(1px)",
+                                opacity: 0,
                             }}
                         />
                     );
