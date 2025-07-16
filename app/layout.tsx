@@ -27,18 +27,24 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
             {/* LIGHTNING BUGS */}
             <div className="absolute inset-0 z-10 pointer-events-none">
-                {[...Array(35)].map((_, i) => (
-                    <div
-                        key={i}
-                        className="absolute w-1 h-1 bg-[#FDE68A] rounded-full"
-                        style={{
-                            top: `${Math.random() * 100}%`,
-                            left: `${Math.random() * 100}%`,
-                            animation: `twinkle ${3 + Math.random() * 3}s infinite`,
-                            animationDelay: `${Math.random() * 5}s`,
-                        }}
-                    />
-                ))}
+                {[...Array(35)].map((_, i) => {
+                    let duration = '4s'; // default
+                    if (i < 12) duration = '2s';
+                    else if (i < 24) duration = '4s';
+                    else duration = '6s';
+                    return (
+                        <div
+                            key={i}
+                            className="absolute w-1 h-1 bg-[#FDE68A] rounded-full"
+                            style={{
+                                top: `${Math.random() * 100}%`,
+                                left: `${Math.random() * 100}%`,
+                                animation: `twinkle ${duration} infinite`,
+                                animationDelay: `${Math.random() * 5}s`,
+                            }}
+                        />
+                    );
+                })}
             </div>
 
             {/* MAIN CONTENT */}
