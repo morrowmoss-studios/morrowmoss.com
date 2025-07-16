@@ -42,7 +42,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                     </nav>
                 </header>
 
-                {/* LIGHTENING BUGS */}
+                {/* LIGHTNING BUGS */}
                 <div className="absolute inset-0 z-[9999] pointer-events-none">
                     {[...Array(35)].map((_, i) => (
                         <div
