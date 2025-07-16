@@ -18,17 +18,30 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     return (
         <html lang="en">
         <body className="text-moss-light font-sans">
-        {/* BACKGROUND IMAGE */}
         <div
             className="relative min-h-screen bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: "url('/forest-bg.png')" }}
         >
-            {/* Optional dark overlay to improve readability */}
-            <div className="absolute inset-0 bg-white/10 z-0" />
+            {/* Light overlay to lift darks */}
+            <div className="absolute inset-0 bg-white/15 z-0" />
 
-            {/* CONTENT WRAPPER */}
-            <div className="relative z-10 flex flex-col min-h-screen">
+            {/* LIGHTNING BUGS */}
+            <div className="absolute inset-0 z-10 pointer-events-none">
+                {[...Array(35)].map((_, i) => (
+                    <div
+                        key={i}
+                        className="absolute w-1 h-1 bg-[#FDE68A] rounded-full animate-twinkle"
+                        style={{
+                            top: `${Math.random() * 100}%`,
+                            left: `${Math.random() * 100}%`,
+                            animationDelay: `${Math.random() * 1}s`,
+                        }}
+                    />
+                ))}
+            </div>
 
+            {/* MAIN CONTENT */}
+            <div className="relative z-20 flex flex-col min-h-screen">
                 {/* HEADER */}
                 <header className="flex flex-col sm:flex-row items-center justify-between p-6 space-y-4 sm:space-y-0 border-b border-moss-faint">
                     <div className="flex items-center space-x-4">
@@ -36,11 +49,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                         <span className="text-xl font-bold text-moss-light">Morrowmoss</span>
                     </div>
                     <nav className="flex flex-wrap justify-center space-x-6 text-moss-light">
-                        <Link href="/">Home</Link>
-                        <Link href="/creations">Creations</Link>
-                        <Link href="/blog">Blog</Link>
-                        <Link href="/about">About</Link>
-                        <Link href="/contact">Contact</Link>
+                        <Link href="/" className="hover:text-[#CCDCFD] hover:drop-shadow-[0_0_5px_#CCDCFD] transition duration-300">Home</Link>
+                        <Link href="/creations" className="hover:text-[#CCDCFD] hover:drop-shadow-[0_0_5px_#CCDCFD] transition duration-300">Creations</Link>
+                        <Link href="/blog" className="hover:text-[#CCDCFD] hover:drop-shadow-[0_0_5px_#CCDCFD] transition duration-300">Blog</Link>
+                        <Link href="/about" className="hover:text-[#CCDCFD] hover:drop-shadow-[0_0_5px_#CCDCFD] transition duration-300">About</Link>
+                        <Link href="/contact" className="hover:text-[#CCDCFD] hover:drop-shadow-[0_0_5px_#CCDCFD] transition duration-300">Contact</Link>
                     </nav>
                 </header>
 

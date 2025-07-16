@@ -30,3 +30,14 @@ a {
     --foreground: #cde7c5;
   }
 }
+
+/* Added twinkle for lightning bug effect */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
+
+.animate-twinkle {
+  animation: twinkle 4s infinite;
+}
+
