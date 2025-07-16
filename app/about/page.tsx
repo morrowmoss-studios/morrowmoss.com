@@ -1,9 +1,9 @@
 export default function AboutPage() {
     return (
         <div className="max-w-3xl mx-auto px-6 py-12 text-moss-light">
-            <h2 className="text-3xl font-bold mb-6">About Morrowmoss</h2>
+            <h2 className="text-3xl font-bold mb-6">About MorrowMoss</h2>
             <p className="mb-4">
-                Morrowmoss is more than a name. It’s a feeling a place where time folds into itself,
+                MorrowMoss is more than a name. It’s a feeling a place where time folds into itself,
                 where stories grow slow and deep, like moss creeping over ancient stone.
             </p>
             <p className="mb-4">
@@ -12,7 +12,7 @@ export default function AboutPage() {
                 resilience quietly reclaiming space, healing what was broken.
             </p>
             <p className="mb-4">
-                Together, Morrowmoss is a studio born from the spaces between endings and beginnings,
+                Together, MorrowMoss is a studio born from the spaces between endings and beginnings,
                 a sanctuary for stories of transformation, shadow, and light.
             </p>
             <p className="mb-4">

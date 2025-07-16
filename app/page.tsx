@@ -4,7 +4,7 @@ export default function Home() {
             {/* HERO */}
             <section className="text-center space-y-6">
                 <h1 className="text-4xl sm:text-6xl font-bold text-moss-light">
-                    Morrowmoss Studios
+                    MorrowMoss Studios
                 </h1>
                 <p className="text-lg text-moss-light/80 max-w-2xl mx-auto">
                     The moss is alive and watching. Handcrafting fae-touched worlds and queer-centered adventures.

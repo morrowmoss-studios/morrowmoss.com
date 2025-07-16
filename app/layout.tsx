@@ -4,7 +4,7 @@ import Image from "next/image";
 import "./globals.css";
 
 export const metadata = {
-    title: "Morrowmoss Studios",
+    title: "MorrowMoss Studios",
     description: "Handcrafting fae-touched worlds and queer-centered adventures.",
     icons: {
         icon: [
@@ -31,7 +31,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <header className="flex flex-col sm:flex-row items-center justify-between p-6 space-y-4 sm:space-y-0 border-b border-moss-faint">
                     <div className="flex items-center space-x-4">
                         <Image src="/LogoOnly.png" alt="Morrowmoss logo" width={50} height={50} />
-                        <span className="text-xl font-bold text-moss-light">Morrowmoss</span>
+                        <span className="text-xl font-bold text-moss-light">MorrowMoss</span>
                     </div>
                     <nav className="flex flex-wrap justify-center space-x-6 text-moss-light">
                         <Link href="/" className="hover:text-[#CCDCFD] hover:drop-shadow-[0_0_5px_#CCDCFD] transition duration-300">Home</Link>
@@ -55,10 +55,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                                 height: `${2 + Math.random() * 2}px`,
                                 backgroundColor: '#FDE68A',
                                 animationDelay: `${Math.random() * 5}s`,
+                                boxShadow: `0 0 6px 2px #FDE68A`
                             }}
                         />
                     ))}
                 </div>
+
 
                 {/* PAGE CONTENT */}
                 <main className="flex-grow container mx-auto px-6 py-12">
@@ -99,7 +101,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                             </svg>
                         </a>
                     </div>
-                    © {new Date().getFullYear()} Morrowmoss Studios. All rights reserved.
+                    © {new Date().getFullYear()} MorrowMoss Studios. All rights reserved.
                 </footer>
             </div>
         </div>
