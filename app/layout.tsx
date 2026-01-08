@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import "./globals.css";
 
 export const metadata = {
@@ -49,11 +50,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                                 width: size,
                                 height: size,
                                 backgroundColor: "#FDE68A",
+                                boxShadow: "0 0 10px rgba(253,230,138,0.75)",
                                 animation: `twinkle ${duration} infinite, drift ${driftDuration} ease-in-out infinite alternate`,
                                 animationDelay: `${Math.random() * 5}s`,
                                 opacity: 0,
-                                // optional glow edge (uncomment if you want it)
-                                boxShadow: "0 0 8px rgba(253,230,138,0.55)",
                             }}
                         />
                     );
@@ -65,15 +65,16 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 {/* HEADER */}
                 <header className="flex flex-col sm:flex-row items-center justify-between p-6 space-y-4 sm:space-y-0 border-b border-moss-faint">
                     <div className="flex items-center space-x-4">
-                        {/* ✅ Use a normal img so Vercel doesn't try to optimize it */}
-                        <img
-                            src="/logo.png"
-                            alt="MorrowMoss logo"
-                            width={50}
-                            height={50}
-                            className="h-[50px] w-[50px]"
-                            loading="eager"
-                        />
+                        {/* Logo container forces clean sizing */}
+                        <div className="relative h-12 w-12 overflow-hidden rounded-md bg-black/30">
+                            <Image
+                                src="/favicon.png"
+                                alt="MorrowMoss logo"
+                                fill
+                                className="object-contain"
+                                priority
+                            />
+                        </div>
 
                         <span className="text-xl font-bold text-moss-light">
                   MorrowMoss
@@ -122,9 +123,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 {/* FOOTER */}
                 <footer className="text-center text-sm text-moss-faint py-6 border-t border-moss-faint">
                     <div className="flex justify-center space-x-6 mb-4">
-                        {/* TikTok */}
                         <a
-                            href="https://www.tiktok.com/@morrowmoss.studios"
+                            href="https://www.tiktok.com/@morrowmoss_official"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:scale-110 transition-all duration-300"
@@ -139,7 +139,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                             </svg>
                         </a>
 
-                        {/* Instagram */}
                         <a
                             href="https://www.instagram.com/morrowmoss.studios/"
                             target="_blank"
@@ -156,7 +155,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                             </svg>
                         </a>
 
-                        {/* Itch.io */}
                         <a
                             href="https://morrowmossstudios.itch.io"
                             target="_blank"
@@ -174,7 +172,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                         </a>
                     </div>
 
-                    © {new Date().getFullYear()} MorrowMoss Studios. All rights reserved.
+                    © {new Date().getFullYear()} MorrowMoss Studios. All rights
+                    reserved.
                 </footer>
             </div>
         </div>
