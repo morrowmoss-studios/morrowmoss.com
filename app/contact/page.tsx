@@ -7,7 +7,7 @@ export default function ContactPage() {
             </p>
 
             <div className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20">
-                📧 morrowmoss.studios@gmail.com
+                📧 contact@morrowmoss.com
             </div>
         </main>
     );
