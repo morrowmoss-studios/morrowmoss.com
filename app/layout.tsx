@@ -17,6 +17,9 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
     return (
         <html lang="en">
+        <head>
+            <meta name="google-site-verification" content="2UYYMbT0tnj6q-9X-4g5uYBvr1hQJZgiZImXstpP53s" />
+        </head>
         <body className="text-moss-light font-sans">
         <div
             className="relative min-h-screen bg-cover bg-center bg-no-repeat"
@@ -81,7 +84,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <footer className="text-center text-sm text-moss-faint py-6 border-t border-moss-faint">
                     <div className="flex justify-center space-x-6 mb-4">
                         {/* TikTok */}
-                        <a href="https://www.tiktok.com/@morrowmoss.studios" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-all duration-300">
+                        <a href="https://www.tiktok.com/@morrowmoss_official" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-all duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" className="w-6 h-6 hover:fill-[#FDE68A]">
                                 <path d="M448 209.9c-22.1 10.2-46.2 16.1-71.5 16.1-52.6 0-98.7-26.6-126.4-66.9V324.5c0 73.9-59.7 133.8-133.8 133.8S-17 398.4-17 324.5c0-73.9 59.7-133.8 133.8-133.8 7.4 0 14.6.6 21.7 1.8v52.7c-7-.9-14.2-1.5-21.7-1.5-44.7 0-81.2 36.5-81.2 81.2s36.5 81.2 81.2 81.2 81.2-36.5 81.2-81.2V0h61.9c0 57.5 46.6 104.1 104.1 104.1 17.7 0 34.6-4.5 49.5-12.4v118.2z"/>
                             </svg>
