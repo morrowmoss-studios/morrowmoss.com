@@ -162,16 +162,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                         {/* Privacy link centered under socials */}
                         <Link
                             href="/privacy"
-                            className="text-moss-faint hover:text-[#FDE68A] hover:drop-shadow-[0_0_6px_#FDE68A] transition"
+                            className="text-moss-light/80 hover:text-[#f7eab5] hover:drop-shadow-[0_0_6px_#f7eab5] transition"
                         >
                             Privacy Policies
                         </Link>
-
-                        {/* Copyright */}
-                        <div>
-                            © {new Date().getFullYear()} MorrowMoss Studios. All rights reserved.
-                        </div>
                     </div>
+
+                    © {new Date().getFullYear()} MorrowMoss Studios. All rights reserved.
                 </footer>
             </div>
         </div>
