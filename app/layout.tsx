@@ -122,58 +122,56 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
                 {/* FOOTER */}
                 <footer className="text-center text-sm text-moss-faint py-6 border-t border-moss-faint">
-                    <div className="flex justify-center space-x-6 mb-4">
-                        <a
-                            href="https://www.tiktok.com/@morrowmoss_official"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:scale-110 transition-all duration-300"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 448 512"
-                                fill="currentColor"
-                                className="w-6 h-6 hover:fill-[#FDE68A]"
+                    <div className="flex flex-col items-center gap-4">
+                        {/* Socials row */}
+                        <div className="flex justify-center space-x-6">
+                            <a
+                                href="https://www.tiktok.com/@morrowmoss_official"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:scale-110 transition-all duration-300"
                             >
-                                <path d="M448 209.9c-22.1 10.2-46.2 16.1-71.5 16.1-52.6 0-98.7-26.6-126.4-66.9V324.5c0 73.9-59.7 133.8-133.8 133.8S-17 398.4-17 324.5c0-73.9 59.7-133.8 133.8-133.8 7.4 0 14.6.6 21.7 1.8v52.7c-7-.9-14.2-1.5-21.7-1.5-44.7 0-81.2 36.5-81.2 81.2s36.5 81.2 81.2 81.2 81.2-36.5 81.2-81.2V0h61.9c0 57.5 46.6 104.1 104.1 104.1 17.7 0 34.6-4.5 49.5-12.4v118.2z" />
-                            </svg>
-                        </a>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" className="w-6 h-6 hover:fill-[#FDE68A]">
+                                    <path d="M448 209.9c-22.1 10.2-46.2 16.1-71.5 16.1-52.6 0-98.7-26.6-126.4-66.9V324.5c0 73.9-59.7 133.8-133.8 133.8S-17 398.4-17 324.5c0-73.9 59.7-133.8 133.8-133.8 7.4 0 14.6.6 21.7 1.8v52.7c-7-.9-14.2-1.5-21.7-1.5-44.7 0-81.2 36.5-81.2 81.2s36.5 81.2 81.2 81.2 81.2-36.5 81.2-81.2V0h61.9c0 57.5 46.6 104.1 104.1 104.1 17.7 0 34.6-4.5 49.5-12.4v118.2z" />
+                                </svg>
+                            </a>
 
-                        <a
-                            href="https://www.instagram.com/morrowmoss.studios/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:scale-110 transition-all duration-300"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="currentColor"
-                                viewBox="0 0 24 24"
-                                className="w-6 h-6 hover:fill-[#FDE68A]"
+                            <a
+                                href="https://www.instagram.com/morrowmoss.studios/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:scale-110 transition-all duration-300"
                             >
-                                <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm4.25-.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z" />
-                            </svg>
-                        </a>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="w-6 h-6 hover:fill-[#FDE68A]">
+                                    <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm4.25-.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z" />
+                                </svg>
+                            </a>
 
-                        <a
-                            href="https://morrowmossstudios.itch.io"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:scale-110 transition-all duration-300"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 512 512"
-                                fill="currentColor"
-                                className="w-6 h-6 hover:fill-[#FDE68A]"
+                            <a
+                                href="https://morrowmossstudios.itch.io"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:scale-110 transition-all duration-300"
                             >
-                                <path d="M64 64h384l64 64v256l-64 64H64l-64-64V128l64-64zm32 32v320h320V96H96zm240 64l48 80-48 80h-96l-48-80 48-80h96zm-24 32h-48l-24 48 24 48h48l24-48-24-48z" />
-                            </svg>
-                        </a>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-6 h-6 hover:fill-[#FDE68A]">
+                                    <path d="M64 64h384l64 64v256l-64 64H64l-64-64V128l64-64zm32 32v320h320V96H96zm240 64l48 80-48 80h-96l-48-80 48-80h96zm-24 32h-48l-24 48 24 48h48l24-48-24-48z" />
+                                </svg>
+                            </a>
+                        </div>
+
+                        {/* Privacy link centered under socials */}
+                        <Link
+                            href="/privacy"
+                            className="text-moss-faint hover:text-[#FDE68A] hover:drop-shadow-[0_0_6px_#FDE68A] transition"
+                        >
+                            Privacy Policies
+                        </Link>
+
+                        {/* Copyright */}
+                        <div>
+                            © {new Date().getFullYear()} MorrowMoss Studios. All rights reserved.
+                        </div>
                     </div>
-
-                    © {new Date().getFullYear()} MorrowMoss Studios. All rights
-                    reserved.
                 </footer>
             </div>
         </div>
