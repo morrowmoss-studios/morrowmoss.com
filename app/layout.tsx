@@ -159,7 +159,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                             </a>
                         </div>
 
-                        {/* Privacy link centered under socials */}
+                        {/* privacy link centered under socials */}
                         <Link
                             href="/privacy"
                             className="text-moss-light/80 hover:text-[#f7eab5] hover:drop-shadow-[0_0_6px_#f7eab5] transition"

@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-    title: "Privacy Policies | MorrowMoss Studios",
-    description: "Privacy policies for MorrowMoss Studios games and apps.",
+    title: "privacy Policies | MorrowMoss Studios",
+    description: "privacy policies for MorrowMoss Studios games and apps.",
 };
 
 export default function PrivacyPoliciesPage() {
