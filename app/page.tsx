@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
     return (
         <div className="space-y-16">
@@ -11,18 +13,52 @@ export default function Home() {
                 </p>
             </section>
 
-            {/* IN DEVELOPMENT */}
-            <section className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20">
+            {/* CURRENTLY BREWING */}
+            <section className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20 space-y-4">
                 <h2 className="text-2xl font-bold text-moss-light">Currently Brewing</h2>
-                <p className="text-moss-light/80">
-                    Check back soon to see what fresh mossy magic is sprouting. We’re nurturing our next world right now.
-                </p>
+                <p className="text-moss-light/60 text-xs uppercase tracking-widest font-semibold">In Development</p>
+
+                <div className="space-y-2">
+                    <h3 className="text-xl font-semibold text-moss-light">TriviaForge</h3>
+                    <p className="text-moss-light/80">
+                        A fantasy-themed trivia experience built on a modular question engine.
+                        Categories are forged like artifacts, and knowledge becomes your weapon.
+                        The forge is heating up — more details soon.
+                    </p>
+                </div>
+
+                <Link
+                    href="/creations/triviaforge"
+                    className="inline-block text-[#FDE68A] hover:text-[#f7eab5] hover:drop-shadow-[0_0_6px_#f7eab5] transition"
+                >
+                    Learn more →
+                </Link>
+            </section>
+
+            {/* SIGILSHIFT CALLOUT */}
+            <section className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20 space-y-4">
+                <p className="text-moss-light/60 text-xs uppercase tracking-widest font-semibold">Finished — Publishing Soon</p>
+
+                <div className="space-y-2">
+                    <h3 className="text-xl font-semibold text-moss-light">SigilShift</h3>
+                    <p className="text-moss-light/80">
+                        A hypnotic sigil-sliding puzzle where glowing runes drift into alignment.
+                        Calm, clever, and crafted to feel like solving ancient magic.
+                    </p>
+                </div>
+
+                <Link
+                    href="/creations/sigilshift"
+                    className="inline-block text-[#FDE68A] hover:text-[#f7eab5] hover:drop-shadow-[0_0_6px_#f7eab5] transition"
+                >
+                    Learn more →
+                </Link>
             </section>
 
             {/* RECENT BLOG */}
             <section className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20">
                 <h2 className="text-2xl font-bold text-moss-light">From the Blog</h2>
-                <p className="text-moss-light/80">
+                <p className="text-moss-light/80 mt-2">
                     Tips, thoughts, and tangled roots of our dev journey — coming soon.
                 </p>
             </section>
