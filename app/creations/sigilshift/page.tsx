@@ -19,7 +19,7 @@ export default function SigilShiftPage() {
                     ← Back to Creations
                 </Link>
                 <h1 className="text-4xl font-bold text-moss-light">SigilShift</h1>
-                <p className="text-sm text-moss-faint italic">Finished — Publishing Soon</p>
+                <p className="text-sm text-moss-faint italic">Finished — Available Now</p>
                 <p className="text-moss-light/80 text-lg">
                     A hypnotic sigil-sliding puzzle where glowing runes drift into alignment.
                     Calm, clever, and crafted to feel like solving ancient magic.
@@ -30,11 +30,10 @@ export default function SigilShiftPage() {
             <section className="space-y-4">
                 <h2 className="text-2xl font-semibold">Screenshots</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                    {/* Drop your screenshots into /public/sigilshift/ and update these src paths */}
                     <div className="rounded-2xl overflow-hidden border border-white/10 bg-white/5 aspect-[9/16]">
                         <Image
-                            src="/sigilshift/screenshot-1.png"
-                            alt="SigilShift mid-puzzle"
+                            src="/3x3.jpeg"
+                            alt="SigilShift 3x3 puzzle"
                             width={400}
                             height={711}
                             className="object-cover w-full h-full"
@@ -42,8 +41,8 @@ export default function SigilShiftPage() {
                     </div>
                     <div className="rounded-2xl overflow-hidden border border-white/10 bg-white/5 aspect-[9/16]">
                         <Image
-                            src="/sigilshift/screenshot-2.png"
-                            alt="SigilShift near-solved glow"
+                            src="/4x4.jpeg"
+                            alt="SigilShift 4x4 puzzle"
                             width={400}
                             height={711}
                             className="object-cover w-full h-full"
@@ -51,8 +50,8 @@ export default function SigilShiftPage() {
                     </div>
                     <div className="rounded-2xl overflow-hidden border border-white/10 bg-white/5 aspect-[9/16]">
                         <Image
-                            src="/sigilshift/screenshot-3.png"
-                            alt="SigilShift early board"
+                            src="/5x5.jpeg"
+                            alt="SigilShift 5x5 puzzle"
                             width={400}
                             height={711}
                             className="object-cover w-full h-full"

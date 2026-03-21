@@ -35,26 +35,6 @@ export default function Home() {
                 </Link>
             </section>
 
-            {/* SIGILSHIFT CALLOUT */}
-            <section className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20 space-y-4">
-                <p className="text-moss-light/60 text-xs uppercase tracking-widest font-semibold">Finished — Publishing Soon</p>
-
-                <div className="space-y-2">
-                    <h3 className="text-xl font-semibold text-moss-light">SigilShift</h3>
-                    <p className="text-moss-light/80">
-                        A hypnotic sigil-sliding puzzle where glowing runes drift into alignment.
-                        Calm, clever, and crafted to feel like solving ancient magic.
-                    </p>
-                </div>
-
-                <Link
-                    href="/creations/sigilshift"
-                    className="inline-block text-[#FDE68A] hover:text-[#f7eab5] hover:drop-shadow-[0_0_6px_#f7eab5] transition"
-                >
-                    Learn more →
-                </Link>
-            </section>
-
             {/* RECENT BLOG */}
             <section className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20">
                 <h2 className="text-2xl font-bold text-moss-light">From the Blog</h2>

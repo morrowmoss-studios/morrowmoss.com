@@ -15,7 +15,7 @@ export default function Creations() {
                 {/* SIGILSHIFT */}
                 <div className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20">
                     <h3 className="text-lg font-bold text-moss-light">SigilShift</h3>
-                    <p className="text-sm text-moss-faint mb-4 italic">Finished — Publishing Soon</p>
+                    <p className="text-sm text-moss-faint mb-4 italic">Finished — Available Now</p>
 
                     <p className="text-moss-light/80 mb-4">
                         A hypnotic sigil-sliding puzzle where glowing runes drift into alignment.
