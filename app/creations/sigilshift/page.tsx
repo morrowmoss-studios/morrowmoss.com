@@ -96,8 +96,8 @@ export default function SigilShiftPage() {
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-3 backdrop-blur-md bg-white/3 border border-white/10 rounded-2xl px-8 py-4 ring-2 ring-[#FDE68A]/20 hover:ring-[#FDE68A]/50 hover:bg-white/6 transition text-moss-light font-semibold"
                     >
-                        <svg role="img" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 text-[#FDE68A]" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.49 1.49 0 0 0-.227.83v20.49a1.49 1.49 0 0 0 .227.834l.012.016L12.54 12.1v-.2L1.349.908l-.012.016zm10.265 11.866l3.42 3.416-10.463 5.928a1.49 1.49 0 0 1-1.517.008L14.327 12.79v-.001zm0-2.49L2.04 4.37a1.49 1.49 0 0 1 1.518.007l10.462 5.929-3.42 3.416v-.002z"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-6 h-6 text-[#FDE68A]">
+                            <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l232.6-233-232.6-233zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c17.4-9.7 17.4-34.5-.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/>
                         </svg>
                         Google Play
                     </a>

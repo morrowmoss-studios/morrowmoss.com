@@ -69,7 +69,7 @@ export default function TriviaForgePage() {
                     spanning history, science, pop culture, mythology, and more.
                 </p>
                 <p className="text-moss-light/80">
-                    Built on a modular question engine, TriviaForge is designed to grow: new categories,
+                    Built on a modular question engine, TriviaForge is designed to grow — new categories,
                     new difficulty tiers, and new challenges added over time. The forge never cools.
                 </p>
             </section>
@@ -82,8 +82,8 @@ export default function TriviaForgePage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 opacity-40 pointer-events-none select-none">
                     <div className="flex items-center justify-center gap-3 backdrop-blur-md bg-white/3 border border-white/10 rounded-2xl px-6 py-4 ring-2 ring-[#FDE68A]/20 text-moss-light font-semibold">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 814 1000" fill="currentColor" className="w-6 h-6 text-[#FDE68A]">
-                            <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-42.2-147.6-100.6C158.6 782 93.1 644.4 93.1 512.6c0-80.7 13.9-159.8 57.1-227.7 60.1-93.9 152.7-158.1 255-158.1 98.2 0 162.4 44.4 230.9 44.4 66.5 0 142.7-47.1 254.4-47.1 41.3 0 143.8 3.8 215.5 99.3zM551.1 85.5C584.6 47.6 608.4 0 608.4 0c0-1.3-.3-2.6-.3-4 0-.3 0-.6.1-.9-41.7 1.5-92.1 27.9-123.1 61.6C458.5 89.1 432 141.8 432 192.8c0 1.3.1 2.6.3 3.9.7.1 1.4.1 2.1.1 43.4 0 93.4-26.2 116.7-111.3z"/>
+                        <svg role="img" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 text-[#FDE68A]" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/>
                         </svg>
                         App Store
                     </div>
