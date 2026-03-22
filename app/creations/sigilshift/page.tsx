@@ -19,7 +19,7 @@ export default function SigilShiftPage() {
                     ← Back to Creations
                 </Link>
                 <h1 className="text-4xl font-bold text-moss-light">SigilShift</h1>
-                <p className="text-sm text-moss-faint italic">Finished — Publishing Soon</p>
+                <p className="text-sm text-moss-faint italic">Finished — Available Now</p>
                 <p className="text-moss-light/80 text-lg">
                     A hypnotic sigil-sliding puzzle where glowing runes drift into alignment.
                     Calm, clever, and crafted to feel like solving ancient magic.

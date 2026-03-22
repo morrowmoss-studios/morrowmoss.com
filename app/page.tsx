@@ -36,11 +36,19 @@ export default function Home() {
             </section>
 
             {/* RECENT BLOG */}
-            <section className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20">
+            <section className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20 space-y-3">
                 <h2 className="text-2xl font-bold text-moss-light">From the Blog</h2>
-                <p className="text-moss-light/80 mt-2">
-                    Tips, thoughts, and tangled roots of our dev journey — coming soon.
+                <p className="text-moss-light/50 text-xs uppercase tracking-widest">March 2026 · TriviaForge</p>
+                <h3 className="text-lg font-semibold text-moss-light">The Forge Awakens</h3>
+                <p className="text-moss-light/80">
+                    Something stirs beneath the moss. TriviaForge is taking shape, and we're ready to talk about it.
                 </p>
+                <Link
+                    href="/blog/the-forge-awakens"
+                    className="inline-block text-[#FDE68A] hover:text-[#f7eab5] hover:drop-shadow-[0_0_6px_#f7eab5] transition"
+                >
+                    Read more →
+                </Link>
             </section>
         </div>
     );
