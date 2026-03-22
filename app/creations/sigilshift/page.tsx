@@ -32,7 +32,7 @@ export default function SigilShiftPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                     <div className="rounded-2xl overflow-hidden border border-white/10 bg-white/5 aspect-[9/16]">
                         <Image
-                            src="/3x3.jpeg"
+                            src="/3x3.png"
                             alt="SigilShift 3x3 puzzle"
                             width={400}
                             height={711}
@@ -41,7 +41,7 @@ export default function SigilShiftPage() {
                     </div>
                     <div className="rounded-2xl overflow-hidden border border-white/10 bg-white/5 aspect-[9/16]">
                         <Image
-                            src="/4x4.jpeg"
+                            src="/4x4.png"
                             alt="SigilShift 4x4 puzzle"
                             width={400}
                             height={711}
@@ -50,7 +50,7 @@ export default function SigilShiftPage() {
                     </div>
                     <div className="rounded-2xl overflow-hidden border border-white/10 bg-white/5 aspect-[9/16]">
                         <Image
-                            src="/5x5.jpeg"
+                            src="/5x5.png"
                             alt="SigilShift 5x5 puzzle"
                             width={400}
                             height={711}
