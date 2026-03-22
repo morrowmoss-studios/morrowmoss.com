@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
     return (
@@ -14,25 +15,43 @@ export default function Home() {
             </section>
 
             {/* CURRENTLY BREWING */}
-            <section className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20 space-y-4">
+            <section className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20 space-y-8">
                 <h2 className="text-2xl font-bold text-moss-light">Currently Brewing</h2>
-                <p className="text-moss-light/60 text-xs uppercase tracking-widest font-semibold">In Development</p>
 
-                <div className="space-y-2">
+                {/* TriviaForge */}
+                <div className="space-y-2 border-b border-white/10 pb-8">
+                    <p className="text-moss-light/60 text-xs uppercase tracking-widest font-semibold">In Development</p>
                     <h3 className="text-xl font-semibold text-moss-light">TriviaForge</h3>
                     <p className="text-moss-light/80">
                         A fantasy-themed trivia experience built on a modular question engine.
                         Categories are forged like artifacts, and knowledge becomes your weapon.
-                        The forge is heating up — more details soon.
+                        The forge is heating up.
                     </p>
+                    <Link
+                        href="/creations/triviaforge"
+                        className="inline-block text-[#FDE68A] hover:text-[#f7eab5] hover:drop-shadow-[0_0_6px_#f7eab5] transition"
+                    >
+                        Learn more →
+                    </Link>
                 </div>
 
-                <Link
-                    href="/creations/triviaforge"
-                    className="inline-block text-[#FDE68A] hover:text-[#f7eab5] hover:drop-shadow-[0_0_6px_#f7eab5] transition"
-                >
-                    Learn more →
-                </Link>
+                {/* PocketHaven */}
+                <div className="space-y-4">
+                    <p className="text-moss-light/60 text-xs uppercase tracking-widest font-semibold">Coming Soon</p>
+                    <h3 className="text-xl font-semibold text-moss-light">PocketHaven</h3>
+                    <Image
+                        src="/pockethaven.png"
+                        alt="PocketHaven promo art"
+                        width={600}
+                        height={800}
+                        className="rounded-2xl w-full max-w-sm mx-auto object-contain"
+                    />
+                    <p className="text-moss-light/80">
+                        A cozy fae-touched home decorating game where every room tells a story.
+                        Craft your haven, tend your garden, and let the forest in.
+                        Coming to mobile and possibly PC and Mac.
+                    </p>
+                </div>
             </section>
 
             {/* RECENT BLOG */}
