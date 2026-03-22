@@ -21,7 +21,7 @@ export default function AboutPage() {
                 and the wounds, the beauty in slow healing.
             </p>
             <p>
-                In every game we craft, we carry that spirit — an invitation to players to wander,
+                In every game we craft, we carry that spirit: an invitation to players to wander,
                 to feel, to heal, and to become.
             </p>
         </div>
