@@ -69,7 +69,7 @@ export default function TriviaForgePage() {
                     spanning history, science, pop culture, mythology, and more.
                 </p>
                 <p className="text-moss-light/80">
-                    Built on a modular question engine, TriviaForge is designed to grow — new categories,
+                    Built on a modular question engine, TriviaForge is designed to grow: new categories,
                     new difficulty tiers, and new challenges added over time. The forge never cools.
                 </p>
             </section>
