@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
     title: "TriviaForge | MorrowMoss Studios",
@@ -29,14 +30,33 @@ export default function TriviaForgePage() {
             <section className="space-y-4">
                 <h2 className="text-2xl font-semibold">Screenshots</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                    {[1, 2, 3].map((n) => (
-                        <div
-                            key={n}
-                            className="rounded-2xl border border-white/10 bg-white/5 aspect-[9/16] flex items-center justify-center text-moss-faint text-sm"
-                        >
-                            Coming soon
-                        </div>
-                    ))}
+                    <div className="rounded-2xl overflow-hidden border border-white/10 bg-white/5">
+                        <Image
+                            src="/triviaforge.png"
+                            alt="TriviaForge main screen"
+                            width={600}
+                            height={600}
+                            className="object-contain w-full h-auto"
+                        />
+                    </div>
+                    <div className="rounded-2xl overflow-hidden border border-white/10 bg-white/5">
+                        <Image
+                            src="/triviaforge_trivia.png"
+                            alt="TriviaForge trivia gameplay"
+                            width={600}
+                            height={600}
+                            className="object-contain w-full h-auto"
+                        />
+                    </div>
+                    <div className="rounded-2xl overflow-hidden border border-white/10 bg-white/5">
+                        <Image
+                            src="/triviaforge_wordoku.png"
+                            alt="TriviaForge wordoku mode"
+                            width={600}
+                            height={600}
+                            className="object-contain w-full h-auto"
+                        />
+                    </div>
                 </div>
             </section>
 
@@ -49,7 +69,7 @@ export default function TriviaForgePage() {
                     spanning history, science, pop culture, mythology, and more.
                 </p>
                 <p className="text-moss-light/80">
-                    Built on a modular question engine, TriviaForge is designed to grow, new categories,
+                    Built on a modular question engine, TriviaForge is designed to grow — new categories,
                     new difficulty tiers, and new challenges added over time. The forge never cools.
                 </p>
             </section>
