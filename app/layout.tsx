@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
         <body className="text-moss-light font-sans">
         <div
-            className="relative min-h-screen bg-cover bg-center bg-no-repeat"
+            className="relative min-h-screen bg-cover bg-center bg-no-repeat bg-fixed"
             style={{ backgroundImage: "url('/forest-bg.png')" }}
         >
             {/* Light overlay to brighten */}
