@@ -3,26 +3,30 @@ export default function AboutPage() {
         <div className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20">
             <h2 className="text-3xl font-bold mb-6">About MorrowMoss</h2>
             <p className="mb-4">
-                MorrowMoss is more than a name. It’s a feeling a place where time folds into itself,
-                where stories grow slow and deep, like moss creeping over ancient stone.
+                MorrowMoss is more than a studio name. It's a state of mind.
             </p>
             <p className="mb-4">
-                “Morrow” means tomorrow, the promise of what’s to come, the hope that even after decay,
-                life will bloom again. “Moss” is soft but relentless, covering ruins with gentle green
-                resilience quietly reclaiming space, healing what was broken.
+                "Morrow" is tomorrow. The stubborn belief that something worth building is always just
+                ahead. "Moss" is the slow, quiet thing that outlasts everything else, soft but relentless,
+                covering ruins, healing what's broken without making a fuss about it.
             </p>
             <p className="mb-4">
-                Together, MorrowMoss is a studio born from the spaces between endings and beginnings,
-                a sanctuary for stories of transformation, shadow, and light.
+                Put them together and you get what MorrowMoss actually is: a queer, one-person indie
+                studio making games in the spaces between endings and beginnings. Games that feel like
+                somewhere, not just something. Dark fantasy puzzles. Trivia in a tavern. A cozy corner
+                of a fae forest waiting to be made into a home.
             </p>
             <p className="mb-4">
-                It’s where the forgotten pieces of ourselves find root and grow new branches.
-                It’s about honoring the past without being trapped by it, embracing the wildness
-                and the wounds, the beauty in slow healing.
+                MorrowMoss is built by one person, moving through the world with a laptop and a lot of
+                ideas. Every game is made with care and without shortcuts, no dark patterns, no gotcha
+                monetization, just honest work offered to people who still believe games can feel like
+                something.
             </p>
             <p>
-                In every game we craft, we carry that spirit: an invitation to players to wander,
-                to feel, to heal, and to become.
+                The work is slow and purposeful. The vibes are always storybook illustration, woodland
+                fae, and candlelight, the kind of art that feels like it came from someone who still thinks
+                magic is real and believes in fairies. The goal is always the same, to make something that
+                makes you feel like you found a place you didn't know you were looking for.
             </p>
         </div>
     );

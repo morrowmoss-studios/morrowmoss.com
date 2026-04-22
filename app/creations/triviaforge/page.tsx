@@ -26,7 +26,7 @@ export default function TriviaForgePage() {
                 </p>
             </section>
 
-            {/* Screenshots — placeholder until dev screenshots are ready */}
+            {/* Screenshots */}
             <section className="space-y-4">
                 <h2 className="text-2xl font-semibold">Screenshots</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -65,12 +65,18 @@ export default function TriviaForgePage() {
                 <h2 className="text-2xl font-semibold">About the Game</h2>
                 <p className="text-moss-light/80">
                     TriviaForge is a fantasy-themed mobile trivia game where knowledge is your greatest weapon.
-                    Choose your category, face the forge, and prove your mastery across hundreds of handcrafted questions
-                    spanning history, science, pop culture, mythology, and more.
+                    Step into the tavern and test yourself across hundreds of questions spanning nine categories
+                    including Science, History, Pop Culture, Folklore, Geography, Technology, Literature, Sports, and Games.
                 </p>
                 <p className="text-moss-light/80">
-                    Built on a modular question engine, TriviaForge is designed to grow: new categories,
-                    new difficulty tiers, and new challenges added over time. The forge never cools.
+                    Three modes keep the forge burning. Trivia pits you against the clock with three strikes between
+                    you and game over. Crossword fills the grid with clues pulled straight from the question database,
+                    every puzzle different from the last. Wordoku twists the classic Sudoku format into a nine-letter
+                    word challenge where logic meets vocabulary.
+                </p>
+                <p className="text-moss-light/80">
+                    Built on a modular question engine, TriviaForge is designed to grow. New categories, new difficulty
+                    tiers, and new challenges added over time. The forge never cools.
                 </p>
             </section>
 
