@@ -11,7 +11,7 @@ export default function PrivacyPoliciesPage() {
             <section className="text-center space-y-4">
                 <h1 className="text-4xl font-bold text-moss-light">Privacy Policies</h1>
                 <p className="text-moss-light/80 max-w-2xl mx-auto">
-                    Each game/app has its own policy page. Choose the one you need below.
+                    Each game has its own policy page. Choose the one you need below.
                 </p>
             </section>
 
@@ -20,7 +20,7 @@ export default function PrivacyPoliciesPage() {
                 <div className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20">
                     <h2 className="text-xl font-semibold text-moss-light">SigilShift</h2>
                     <p className="text-moss-light/80">
-                        Ads + rewarded ads via Unity LevelPlay (Unity Ads). No MorrowMoss servers.
+                        Ads and rewarded ads via Unity LevelPlay. No account required. No MorrowMoss servers.
                     </p>
                     <Link
                         href="/privacy/sigilshift"
@@ -34,8 +34,7 @@ export default function PrivacyPoliciesPage() {
                 <div className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-6 shadow-lg ring-2 ring-[#FDE68A]/20">
                     <h2 className="text-xl font-semibold text-moss-light">TriviaForge</h2>
                     <p className="text-moss-light/80">
-                        {/* Update this summary once you know the ad/data setup for TriviaForge */}
-                        Privacy policy for TriviaForge. Details on data collection and third-party services.
+                        Optional accounts with Firebase. Ads via Unity LevelPlay. Includes leaderboards, stats, and in-app purchases.
                     </p>
                     <Link
                         href="/privacy/triviaforge"
