@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
     return (
-        <div className="space-y-16">
+        <main className="max-w-4xl mx-auto p-8 space-y-16">
             {/* HERO */}
             <section className="text-center space-y-6">
                 <h1 className="text-4xl sm:text-6xl font-bold text-moss-light">
@@ -69,6 +69,6 @@ export default function Home() {
                     Read more →
                 </Link>
             </section>
-        </div>
+        </main>
     );
 }
