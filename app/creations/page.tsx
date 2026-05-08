@@ -1,4 +1,6 @@
-export function Creations() {
+import Link from "next/link";
+
+export default function Creations() {
     return (
         <div className="space-y-12">
             <section className="text-center space-y-4">
