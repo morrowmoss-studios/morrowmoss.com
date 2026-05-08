@@ -20,7 +20,7 @@ export default function Home() {
 
                 {/* PocketHaven */}
                 <div className="space-y-4">
-                    <p className="text-moss-light/60 text-xs uppercase tracking-widest font-semibold">Coming Soon</p>
+                    <p className="text-moss-light/60 text-xs uppercase tracking-widest font-semibold">In Development</p>
                     <h3 className="text-xl font-semibold text-moss-light">PocketHaven</h3>
                     <Image
                         src="/pockethaven.png"
