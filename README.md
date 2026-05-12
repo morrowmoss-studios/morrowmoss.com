@@ -1,6 +1,6 @@
-# 🌿 MorrowMoss Studios
+# 🌿 MorrowMoss Studios LTD
 
-**morrowmoss.com** — the digital woodland for MorrowMoss Studios, an indie game studio handcrafting fae-touched worlds and queer-centered adventures.
+**morrowmoss.com** — the digital woodland for MorrowMoss Studios LTD, an indie game studio handcrafting fae-touched worlds and queer-centered adventures.
 
 ---
 
